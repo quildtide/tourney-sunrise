@@ -1,0 +1,17 @@
+TLDR:
+- factories no longer consume additional resources on paper, but still require some extra resources due to higher unit costs
+
+- walls are cheaper
+- jackal and scarab turrets are cheaper and more durable, scarabs have longer range
+- Reclaim turret exists, and CAN ONLY RECLAIM WRECKAGE, not trees or living units 
+- liberator recon turret exists, provides a cheap source of true vision
+
+- lancers do big damage, shoot a bit slower, match dox range
+- STOKES SHOOT AIR, are 16 speed
+- walker fabs are chonky, vehicle fabs use current live stats of walker fab
+- guardians (combat fabs) are cheaper, and can build liberators, reclaim turrets, and shredders in  addition to their current build options
+- deathmark and monstro prioritize advanced units and structures
+
+- meteor is significantly less tanky now
+- comet is now produced from t2 flyer foundry rather than by fabbers
+- nova has been reworked, it now spawns a suicide unit that chases you around

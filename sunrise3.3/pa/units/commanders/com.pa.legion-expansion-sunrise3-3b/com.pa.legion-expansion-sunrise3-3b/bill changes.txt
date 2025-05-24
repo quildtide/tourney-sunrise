@@ -1,0 +1,34 @@
+T1 mex:
+-new model
+-removed blinky lights from effect, offset downward
+
+T1 Armour Foundry:
+-new model
+-new smoke effect
+
+storage:
+-new model
+-new smoke effect
+
+air fac:
+-new model 
+-new smoke effect
+
+clot:
+-metal cost reduced to 25 from 50
+-renamed to Barricade
+
+Scarab:
+-HP incrased to 3000 from 2500
+-range increased to 120 from 110
+
+reclaim Turret:
+-new unit 
+-reclaims wreckage ina wide area
+
+Predator attack vehicle:
+-new unit
+-speedy raider with poor scaling and high micro potential 
+
+shield gen:
+-reduced model size/footprint 

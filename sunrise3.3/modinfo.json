@@ -1,0 +1,20 @@
+{
+	"identifier": "sunrise3.3b",
+	"display_name": "bills cursed Sunrise",
+	"description": "legion balance testing",
+	"author": "Anonemous2",
+	"signature": "not yet implemented",
+	"forum": "NA",
+	"priority": 2,
+	"icon": "sunrise.png",
+	"titansOnly": true,
+	"category": [
+		"balance",
+		"legion",
+		"expansion"
+	],
+	"context": "server",
+	"date": "2024-08-24",
+	"build": "120799",
+	"version": "0.1.1"
+}
