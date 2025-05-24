@@ -21,8 +21,8 @@
     - 1000 Health
     - Build arm
       - 200 range
-      - 60 metal 
-      - 800 energy
+      - 30 metal 
+      - 400 energy
 
   - Shield Generator
     - Health increased from 750 to 1500
