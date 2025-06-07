@@ -187,7 +187,6 @@
 
   - Purger
     - Metal cost reduced to 45 from 50
-    - HP increased to 25 from 20
     - Given missile target tracking
     - Auto attacks targets when moving into range. When given a target, will not auto attack other units.
     - Attack Frac 0.8
