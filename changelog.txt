@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## Released Legion -> Sunrise 3
 
 ### Balance
 
@@ -94,7 +94,7 @@
   - Lancer
     - Damage increased from 166 to 215 
     - RoF decreased from 0.61 to 0.5 
-    - Maximum range increased to 75 from 70
+    - Maximum range increased from 70 to 75
 
   - Orbweaver
     - Health increased from 400 to 480
@@ -237,7 +237,7 @@
 
   - Viper
     - Added attack fraction 0.75
-    - Increased damage from 40 to 500
+    - Increased damage from 40 to 50
     - Reduced range from 200 to 100
 
   - Starcannon
