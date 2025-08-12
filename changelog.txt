@@ -216,6 +216,12 @@
     - Increased damage from 29 to 35
     - Metal cost reduced to 200 from 240
 
+  - Marauder
+    - Now uses the same targeting priorities as the Icarus.
+      - First fabbers
+      - Then anti-air
+      - Then other mobile
+
   - Meteor
     - Health reduced from 2000 to 750
     - Drones made uncontrolable.
