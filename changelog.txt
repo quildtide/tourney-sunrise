@@ -43,6 +43,12 @@
 
 ### Flyers
 
+### Flyer Foundry
+- Cooldown Time: 2 -> 4
+
+### Advanced Flyer Foundry
+- Cooldown Time: 2 -> 4
+
 ### Scythe
 - Cost: 200 -> 220
 - Range: 95 -> 105
