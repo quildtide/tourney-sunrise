@@ -21,21 +21,21 @@
 - Fabrication Metal Rate: 10 -> 8
 - Fabrication Energy Consumption: 635 -> 550
 
-### Peacekeeper
+#### Peacekeeper
 - Health: 160 -> 150
 - Damage per Shot: 19.5 -> 15
 - Range: 70 -> 65
 - Speed: 15 -> 16
 
-### Lancer
+#### Lancer
 - Health: 100 -> 80
 
-### Patriot
+#### Patriot
 - Acceleration: 120 -> 30
 - Break: 120 -> 30
 - Turn Speed: 720 -> 360
 
-### Purger
+#### Purger
 - Cost: 45 -> 60
 - Damage: 450 -> 350
 - Mesh Bounds: [3.5, 3, 2.8] -> [3.75, 3.5, 5]
@@ -43,13 +43,13 @@
 
 ### Flyers
 
-### Flyer Foundry
+#### Flyer Foundry
 - Cooldown Time: 2 -> 4
 
-### Advanced Flyer Foundry
+#### Advanced Flyer Foundry
 - Cooldown Time: 2 -> 4
 
-### Scythe
+#### Scythe
 - Cost: 200 -> 220
 - Range: 95 -> 105
 - Fire Rate: 0.9 -> 1.0
