@@ -1,5 +1,78 @@
 # CHANGELOG
 
+## Sunrise 3 -> High Noon
+
+### Armour
+
+#### Armour Fabricator
+- Fabrication Metal Rate: 9 -> 8
+- Fabrication Energy Consumption: 650 -> 600
+
+#### Shank
+- Health: 300 -> 250
+- Damage per Shot: 125 -> 120
+
+#### Maul
+- Health: 1250 -> 1150
+
+### Walkers
+
+#### Fabrication Walker
+- Fabrication Metal Rate: 10 -> 8
+- Fabrication Energy Consumption: 635 -> 550
+
+### Peacekeeper
+- Health: 160 -> 150
+- Damage per Shot: 19.5 -> 15
+- Range: 70 -> 65
+- Speed: 15 -> 16
+
+### Lancer
+- Health: 100 -> 80
+
+### Patriot
+- Acceleration: 120 -> 30
+- Break: 120 -> 30
+- Turn Speed: 720 -> 360
+
+### Purger
+- Cost: 45 -> 60
+- Damage: 450 -> 350
+- Mesh Bounds: [3.5, 3, 2.8] -> [3.75, 3.5, 5]
+
+
+### Flyers
+
+### Scythe
+- Cost: 200 -> 220
+- Range: 95 -> 105
+- Fire Rate: 0.9 -> 1.0
+
+#### Marauder
+- Health: 50 -> 40
+- Speed: 100 -> 90
+
+#### Dauntless
+- Projectile Initial Velocity: 35 -> 20
+- Projectile Maximum Velocity: 35 -> 20
+
+
+### Structures
+
+#### Clot
+- Cost: 35 -> 50
+
+#### Jackal
+- Health: 1000 -> 900
+- Damage per Shot: 40 -> 30
+- Full Damage Splash Radius: 2 -> 1.5
+- Splash Radius: 6 -> 4
+
+#### Reclaim Turret
+- Range: 200 -> 180
+- Energy Consumption: 400 -> 500
+
+
 ## Released Legion -> Sunrise 3
 
 ### Balance

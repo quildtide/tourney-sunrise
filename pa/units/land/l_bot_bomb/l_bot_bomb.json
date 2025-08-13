@@ -22,7 +22,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 45,
+  "build_metal_cost": 60,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -54,7 +54,7 @@
   "guard_layer": "WL_AnySurface",
   "guard_radius": 50,
   "max_health": 20,
-  "mesh_bounds": [3.5, 3, 2.8],
+  "mesh_bounds": [3.75, 3.5, 5],
   "model": {
     "animations": {
       "idle": "/pa/units/land/l_bot_bomb/l_bot_bomb_anim_idle.papa",
