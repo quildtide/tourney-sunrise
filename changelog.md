@@ -22,7 +22,7 @@
 - Fabrication Energy Consumption: 635 -> 550
 
 #### Peacekeeper
-- Health: 160 -> 150
+- Health: 170 -> 150
 - Damage per Shot: 19.5 -> 15
 - Range: 70 -> 65
 - Speed: 15 -> 16
