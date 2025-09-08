@@ -5,8 +5,11 @@
 ### Armour
 
 #### Armour Fabricator
-- Fabrication Metal Rate: 9 -> 8
-- Fabrication Energy Consumption: 650 -> 600
+- Cost: 150 -> 250
+- Fabrication Metal Rate: 9 -> 15
+- Fabrication Energy Consumption: 650 -> 900
+- Health: 65 -> 250
+- Speed: 14 -> 12
 
 #### Shank
 - Health: 300 -> 250
@@ -19,7 +22,9 @@
 
 #### Fabrication Walker
 - Fabrication Metal Rate: 10 -> 8
-- Fabrication Energy Consumption: 635 -> 550
+- Fabrication Energy Consumption: 635 -> 600
+- Health: 200 -> 65
+- Speed: 12 -> 14
 
 #### Peacekeeper
 - Health: 170 -> 150
@@ -69,7 +74,6 @@
 - Cost: 35 -> 50
 
 #### Jackal
-- Health: 1000 -> 900
 - Damage per Shot: 40 -> 30
 - Full Damage Splash Radius: 2 -> 1.5
 - Splash Radius: 6 -> 4
