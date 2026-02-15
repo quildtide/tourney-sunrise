@@ -3,7 +3,7 @@
   "auto_attack": true,
   "base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json",
   "firing_arc_pitch": 60,
-  "firing_arc_yaw": 70,
+  "firing_arc_yaw": 0,
   "idle_aim_delay": 0,
   "max_range": 105,
   "pitch_range": 89,
@@ -11,6 +11,6 @@
   "rate_of_fire": 1,
   "spread_fire": true,
   "target_layers": ["WL_Air"],
-  "yaw_range": 35,
+  "yaw_range": 60,
   "yaw_rate": 3600
 }

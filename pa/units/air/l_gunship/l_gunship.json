@@ -33,35 +33,71 @@
     {
       "bone": "engines_back",
       "filename": "/pa/units/air/gunship/gunship_jets.pfx",
-      "offset": [-2.5, 0, -3.1],
-      "orientation": [0, 90, 0],
+      "offset": [
+        -2.5,
+        0,
+        -3.1
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
       "type": "moving"
     },
     {
       "bone": "engines_back",
       "filename": "/pa/units/air/gunship/gunship_jets.pfx",
-      "offset": [2.5, 0, -3.1],
-      "orientation": [0, 90, 0],
+      "offset": [
+        2.5,
+        0,
+        -3.1
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
       "type": "moving"
     },
     {
       "bone": "engines_front",
       "filename": "/pa/units/air/gunship/gunship_jets.pfx",
-      "offset": [-4.6, 0, -3.3],
-      "orientation": [0, 90, 0],
+      "offset": [
+        -4.6,
+        0,
+        -3.3
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
       "type": "moving"
     },
     {
       "bone": "engines_front",
       "filename": "/pa/units/air/gunship/gunship_jets.pfx",
-      "offset": [4.6, 0, -3.3],
-      "orientation": [0, 90, 0],
+      "offset": [
+        4.6,
+        0,
+        -3.3
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
       "type": "moving"
     }
   ],
   "guard_layer": "WL_AnySurface",
   "max_health": 350,
-  "mesh_bounds": [8.5, 11.5, 3.6193],
+  "mesh_bounds": [
+    8.5,
+    11.5,
+    3.6193
+  ],
   "model": {
     "animations": {
       "fly": "/pa/units/air/l_gunship/l_gunship_fly.papa"
@@ -102,26 +138,20 @@
     "diameter": -20
   },
   "spawn_layers": "WL_Air",
+  "maintain_priority_target": false,
   "tools": [
     {
       "aim_bone": "bone_pitch",
       "fire_event": "fired0",
-      "muzzle_bone": "socket_muzzle",
+      "muzzle_bone": "socket_rocket01",
       "record_index": 0,
-      "spec_id": "/pa/units/air/l_gunship/l_gunship_main_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_gunship/l_gunship_rocket_tool_weapon.json"
     },
     {
-      "aim_bone": "bone_turret",
-      "fire_event": "fired1",
-      "muzzle_bone": [
-        "socket_rocket01",
-        "socket_rocket02",
-        "socket_rocket03",
-        "socket_rocket04",
-        "socket_rocket05",
-        "socket_rocket06"
-      ],
-      "record_index": 1,
+      "aim_bone": "bone_pitch",
+      "fire_event": "fired0",
+      "muzzle_bone": "socket_rocket04",
+      "record_index": 0,
       "spec_id": "/pa/units/air/l_gunship/l_gunship_rocket_tool_weapon.json"
     }
   ],

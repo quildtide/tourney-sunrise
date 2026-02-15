@@ -24,6 +24,7 @@ if (!legionSharedBuildLoaded) {
       var r2c4 = { row: 2, column: 4, titans: true };
       var r2c5 = { row: 2, column: 5, titans: true };
       var r2c6 = { row: 2, column: 6, titans: true };
+      var r2c7 = { row: 2, column: 7, titans: true };
       _.assign(Build.HotkeyModel.SpecIdToGridMap, {
         "/pa/units/air/l_flying_teleporter/l_flying_teleporter.json": [
           "L_air",
@@ -151,7 +152,7 @@ if (!legionSharedBuildLoaded) {
 
         "/pa/units/land/l_scout_turret/l_scout_turret.json": [
           "L_combat",
-          18,
+          19,
           r1c5,
         ],
 
@@ -250,6 +251,9 @@ if (!legionSharedBuildLoaded) {
         ],
         "/pa/units/land/l_fabrication_vehicle_combat/l_fabrication_vehicle_combat.json":
           ["L_vehicle", 17, { row: 2, column: 5, titans: true }],
+
+          "/pa/units/land/l_attack_vehicle/l_attack_vehicle.json":
+          ["L_vehicle", 18, { row: 2, column: 6, titans: true }],
         
         "/pa/units/land/l_tank_adv_support/l_tank_adv_support.json":
           ["L_vehicle", 23, { row: 0, column: 5, titans: true }],

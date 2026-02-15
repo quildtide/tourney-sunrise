@@ -47,7 +47,7 @@
   ],
   "guard_layer": "WL_Air",
   "guard_radius": 160,
-  "max_health": 90,
+  "max_health": 150,
   "mesh_bounds": [
     6,
     6,

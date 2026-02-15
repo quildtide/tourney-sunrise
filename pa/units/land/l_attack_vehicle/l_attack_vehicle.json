@@ -2,8 +2,8 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Predator",
     "description": "!LOC: Attack Vehicle - Fast raider. Attacks surface targets.",
-    "max_health": 100,
-    "build_metal_cost": 150,
+    "max_health": 85,
+    "build_metal_cost": 100,
     "attachable": {
         "offsets": {
             "root": [
@@ -36,7 +36,7 @@
             "type": "land-small",
             "acceleration": 150,
             "brake": 150,
-            "move_speed": 18,
+            "move_speed": 15,
             "turn_speed": 180   
     },
     "physics": {
@@ -59,6 +59,7 @@
         "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
         "arrows": 5
     },
+    "maintain_priority_target": false,
     "tools": [
         {
             "spec_id": "/pa/units/land/l_attack_vehicle/l_attack_vehicle_tool_weapon.json",

@@ -1,8 +1,8 @@
 {
-	"identifier": "legion.sunrise.high_noon",
-	"display_name": "Legion Balance - High Noon",
-	"description": "legion tourney balance testing",
-	"author": "Anonemous2, billthebluebot, Quildtide, Nik, PhyrricVictory",
+	"identifier": "sunrise5",
+	"display_name": "Legion Balance for major release",
+	"description": "Legion Balance Testing",
+	"author": "Anonemous2",
 	"signature": "not yet implemented",
 	"forum": "NA",
 	"priority": 2,
@@ -14,7 +14,7 @@
 		"expansion"
 	],
 	"context": "server",
-	"date": "2025-09-08",
+	"date": "2025-12-25",
 	"build": "120799",
-	"version": "0.4.1"
+	"version": "0.1.1"
 }

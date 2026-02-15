@@ -56,8 +56,8 @@
     "acceleration": 80,
     "bank_factor": 10,
     "brake": 30,
-    "move_speed": 80,
-    "turn_speed": 240,
+    "move_speed": 40,
+    "turn_speed": 120,
     "vertical_speed": 200
   },
   "recon": {

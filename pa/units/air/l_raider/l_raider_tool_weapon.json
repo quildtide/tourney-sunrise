@@ -7,12 +7,19 @@
   "pitch_range": 90,
   "pitch_rate": 720,
   "rate_of_fire": 2,
-  "target_layers": ["WL_LandHorizontal", "WL_WaterSurface"],
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_WaterSurface"
+  ],
   "yaw_range": 180,
   "yaw_rate": 360,
   "target_priorities": [
     "Fabber",
     "AirDefense",
     "Mobile & (Land | Naval)"
-  ]
+  ],
+  "ammo_capacity": 6,
+  "ammo_demand": 1,
+  "ammo_per_shot": 1,
+  "ammo_source": "time"
 }

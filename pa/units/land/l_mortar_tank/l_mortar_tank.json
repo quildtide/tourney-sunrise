@@ -1,6 +1,6 @@
 {
   "display_name": "!LOC:Stoke",
-  "description": "!LOC:Light Tank - Amphibious. Armed with torpedoes. Attacks land, air, sea, seabed and undersea targets.",
+  "description": "!LOC:Anti-Air Tank - Armed with single flak canon. Attacks air only.",
   "TEMP_texelinfo": 9.31488,
   "armor_type": "AT_Bot",
   "attachable": {
@@ -20,7 +20,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 180,
+  "build_metal_cost": 170,
   "events": {
     "died": {
       "effect_scale": 1.4
@@ -28,7 +28,7 @@
     "fired": {
       "audio_cue": "",
       "effect_scale": 1.0,
-      "effect_spec": "/pa/units/land/l_mortar_tank/muzzle_flash.pfx socket_muzzle001 /pa/units/land/l_mortar_tank/muzzle_flash.pfx socket_muzzle002"
+      "effect_spec": "/pa/units/land/l_mortar_tank/muzzle_flash.pfx socket_muzzle"
     }
   },
   "guard_layer": "WL_AnySurface",

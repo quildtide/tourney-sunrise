@@ -74,9 +74,8 @@
     }
   ],
   "guard_layer": "WL_AnySurface",
-  "guard_radius": 40,
-  "maintain_priority_target": false,
-  "max_health": 50,
+  "guard_radius": 50,
+  "max_health": 40,
   "mesh_bounds": [14, 7.5, 2.6],
   "model": {
     "animtree": "/pa/anim/anim_trees/l_raider_anim_tree.json",
@@ -123,6 +122,7 @@
   "selection_icon": {
     "diameter": -19
   },
+  "maintain_priority_target": false,
   "tools": [
     {
       "aim_bone": "bone_root",

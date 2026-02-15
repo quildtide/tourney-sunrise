@@ -1,397 +1,95 @@
-# CHANGELOG
-
-## Sunrise 3 -> High Noon
-
-### Armour
-
-#### Armour Fabricator
-- Cost: 150 -> 250
-- Fabrication Metal Rate: 9 -> 15
-- Fabrication Energy Consumption: 650 -> 900
-- Health: 65 -> 250
-- Speed: 14 -> 12
-
-#### Shank
-- Health: 300 -> 250
-- Damage per Shot: 125 -> 120
-
-#### Maul
-- Health: 1250 -> 1150
-
-### Walkers
-
-#### Fabrication Walker
-- Fabrication Metal Rate: 10 -> 8
-- Fabrication Energy Consumption: 635 -> 600
-- Health: 200 -> 65
-- Speed: 12 -> 14
-
-#### Peacekeeper
-- Health: 170 -> 150
-- Damage per Shot: 19.5 -> 15
-- Range: 70 -> 65
-- Speed: 15 -> 16
-
-#### Lancer
-- Health: 100 -> 80
-
-#### Patriot
-- Acceleration: 120 -> 30
-- Break: 120 -> 30
-- Turn Speed: 720 -> 360
-
-#### Purger
-- Cost: 45 -> 60
-- Damage: 450 -> 350
-- Mesh Bounds: [3.5, 3, 2.8] -> [3.75, 3.5, 5]
-
-
-### Flyers
-
-#### Flyer Foundry
-- Cooldown Time: 2 -> 4
-
-#### Advanced Flyer Foundry
-- Cooldown Time: 2 -> 4
-
-#### Scythe
-- Cost: 200 -> 220
-- Range: 95 -> 105
-- Fire Rate: 0.9 -> 1.0
-
-#### Marauder
-- Health: 50 -> 40
-- Speed: 100 -> 90
-
-#### Dauntless
-- Projectile Initial Velocity: 35 -> 20
-- Projectile Maximum Velocity: 35 -> 20
-
-
-### Structures
-
-#### Clot
-- Cost: 35 -> 50
-
-#### Jackal
-- Damage per Shot: 40 -> 30
-- Full Damage Splash Radius: 2 -> 1.5
-- Splash Radius: 6 -> 4
-
-#### Reclaim Turret
-- Range: 200 -> 180
-- Energy Consumption: 400 -> 500
-
-
-## Released Legion -> Sunrise 3
-
-### Balance
-
-- Defense
-  - Liberator
-    - New unit only buildable by combat fabbers
-    - 75 Metal
-    - 150 Health
-    - 230 Vision
-    - Weapon
-      - 90 Range
-      - 20 Damage (x2)
-      - 1 Rate of Fire
-
-  - Reclaim turret
-    - New structure buildable by combat fabricators and fabricators
-    - 375 Metal
-    - 1000 Health
-    - Build arm
-      - 200 range
-      - 30 metal 
-      - 400 energy
-
-  - Shield Generator
-    - Health increased from 750 to 1500
-    - Increased ammo capacity from 36000 to 60000
-    - Increased ammo demand from 1000 to 1200
-    - Reduced model size/footprint 
-  
-  - Clot
-    - Cost reduced from 50 to 35
-
-  - Jackal
-    - Cost decreased from 350 to 275
-    - Health increased from 750 to 1000
-
-  - Scarab
-    - Cost decreased from 550 to 450
-    - Health increased from 2500 to 3000
-    - Range increased from 110 to 120
-
-- Land
-  - Predator (DISABLED FOR TOURNEY)
-    - Experimental T1 land vehicle
-    - 18 Speed
-    - 150 Metal
-    - 100 Health
-    - 130 Vision
-    - Weapon
-      - 110 Range
-      - 84 Damage 
-      - 0.55 Rate of Fire
-
-  - Peacekeeper
-    - vision radius increased to 115 from 105
-    
-  - Havoc
-    - Split off anti-missile beam from the Gile
-    - Increased anti-missile beam firerate from 0.25 to 0.333
-    - Reduced range of anti-missile beam from 140 to 115
-
-  - Shank
-    - Removed Splash damage
-
-  - Stoke 
-    - cost reduced to 180 from 210 
-    - Speed increased from 14 to 16 
-    - Primary weapon now targets air
-
-  - Deathmark
-    - Decreased Projectile speed from 200 to 100
-    - Decreased Gravity from 26 to 20
-    - Given Target Priorities:
-      "Advanced - Structure"
-      "Tank - Structure"
-      "Mobile - Air"
-      "Structure - Wall"
-      "Wall"
-
-  - Maul
-    - Health increased from 1150 to 1250
-
-  - Investigator
-    - Removed fire effect
-    - Cost reduced from 150 to 100
-    - Increased vision radius from 150 to 200
-    - Deployed version
-      - Increased vision radius from 0 to 100
-      - Energy cost increased from 100 to 200
-
-  - Lancer
-    - Damage increased from 166 to 215 
-    - RoF decreased from 0.61 to 0.5 
-    - Maximum range increased from 70 to 75
-
-  - Orbweaver
-    - Health increased from 400 to 480
-
-  - Radar
-    - Health increased from 500 to 750
-    - Increased vision radius from 100 to 200
-
-  - Armour Foundry
-    - Reduced Metal rate from 17 to 15
-    - Reduced Energy rate from 765 to 675
-
-  - Advanced Walker Foundry
-    - Reduced Metal rate from 50 to 45
-    - Reduced Energy rate from 1650 to 1500
-
-  - Walker Foundry
-    - Reduced Metal rate from 17 to 15
-    - Reduced Energy rate from 765 to 675
-
-  - Advanced Armour Foundry
-    - Reduced Metal rate from 50 to 45
-    - Reduced Energy rate from 1650 to 1500
-
-  - Miniman
-    - Increased Ammo from 7 to 8
-    - Removed AT Multiplier for Structures
-
-  - Monstrosity
-    - Given Target Priorities:
-      "Advanced - Structure"
-      "Tank - Structure"
-      "Mobile - Air"
-      "Structure - Wall"
-      "Wall"
-
-  - Fabrication Walker
-    - Speed reduced from 14 to 12
-    - Health increased to 200 from 65
-    - Increased Metal rate from 9 to 10
-    - Reduced Energy rate from 650 to 635
-
-  - Advanced Fabrication Walker
-    - Speed reduced from 14 to 12
-    - Reduced Metal cost from 2000 to 1900
-    - Health increased to 400 from 150
-    - Reduced Energy rate from 2200 to 1900
-
-  - Armour Fabricator
-    - Speed increased from 11 to 14
-    - Health reduced from 185 to 65
-    - Reduced Metal rate from 13 to 9
-    - Reduced Energy rate from 850 to 650
-    - Metal Cost reduced from 200 to 150
-
-  - Advanced Fabrication Armour
-    - Speed increased from 10 to 16
-    - Health reduced from 500 to 200
-    - Reduced Metal rate from 70 to 60
-
-  - Guardian
-    - Reduced Metal cost from 350 to 250
-    - Reduced Metal rate from 45 to 30
-    - Reduced Energy rate from 600 to 400
-    - Can Build Shredders
-    - Can build Liberators
-    - Can build Reclaim Turrets
-
-  - Corsair
-    - Health reduced from 175 to 100
-    - Increased range from 160 to 240
-    - Given Grenadier target priorities:
-      "Structure & SurfaceDefense"
-      "Structure & Defense"
-      "Commander"
-      "Mobile - Air"
-      "Structure - Wall"
-      "Wall"
-
-  - Necromancer
-    - Increased waves of Purgers from 6 to 12
-    - Increased ammo capacity from 420 to 750
-    - Increased ammo per shot from 420 to 750
-    - Increased ammo demand from 35 to 45
-
-  - Stoke
-    - Reduced Metal cost from 210 to 180
-    - Increased move speed from 14 to 16
-    - Anti-surface weapon is now able to target air
-
-  - Purger
-    - Metal cost reduced to 45 from 50
-    - Given missile target tracking
-    - Auto attacks targets when moving into range. When given a target, will not auto attack other units.
-    - Attack Frac 0.8
-
-- Air
-  - Osprey
-    - Increased metal cost from 100 to 140
-    - Increased braking from 40 to 80
-    - Increased vision radius from 70 to 120
-
-  - Lockheed
-    - Reduced gun range from 80 to 60
-    - Reduced gun rate of fire from 4 to 2
-    - Reduced missile range from 100 to 75
-    - Increased missile volley from 2 to 3
-
-  - Comet
-    - No longer Fabricator Buildable
-    - Buildable from the Advanced Flyer Foundry
-
-  - Firebird
-    - Reduced missile range from 180 to 160
-    - Reduced rate of fire from 0.33 to 0.25
-
-  - Scythe
-    - Reduced Fire angle from 70 to 45 degrees
-    - Increased damage from 29 to 35
-    - Metal cost reduced to 200 from 240
-
-  - Marauder
-    - Now uses the same targeting priorities as the Icarus.
-      - First fabbers
-      - Then anti-air
-      - Then other mobile
-
-  - Meteor
-    - Health reduced from 2000 to 750
-    - Drones made uncontrolable.
-
-  - Infiltrator
-    - Added UNITTYPE_Offense type (So it will stay with offensive air units)
-
-  - Nova
-    - completely reworked
-    - spawns a "missile" once triggered, that can be targetted and killed by aa 
-
-  - Advanced Flyer Foundry
-    - Reduced Metal rate from 50 to 45
-    - Reduced Energy rate from 1650 to 1500
-
-- Orbital
-  - Paladin
-    - Added attack fraction 0.9
-
-  - Viper
-    - Added attack fraction 0.75
-    - Increased damage from 40 to 50
-    - Reduced range from 200 to 100
-
-  - Starcannon
-    - Updated description for max units held
-    - Lowered strat icon priority to 4 (units being built will now show on top of the starcannon)
-
-  - Starship Foundry
-    - Build cost decreased from 6000 to 4200
-
-- Naval
-  - Advanced Ship Foundry
-    - Reduced Metal rate from 65 to 60
-    - Reduced Energy rate from 1900 to 1750
-
-### Visual
-
-- New models
-  - Fabrication Walker
-  - Armour Fabricator
-  - Guardian
-  - Corsair
-  - Panzer
-  - Stoke
-  - Radar
-  - Deathmark
-  - Scorpion
-  - Shank
-  - Dauntless
-  - Flyer Fabricator
-  - Scythe
-  - Havoc
-  - Osprey
-  - Armour Foundry 
-  - Flyer Foundry 
-  - Mass Extractor
-  - Omnisilo Storage Device
-
-- Updated SI icon
-  - Corsair
-  - Marauder
-  - Nova
-
-- Updated attachment point
-  - Peacekeeper
-  - Patriot
-  - Orbweaver
-  - Miniman
-  - Monstrosity
-  - Purger
-  - Praetorian
-  - Advanced Fabrication Walker
-  - Advanced Armour Fabricator
-  - Necromancer
-  - Enforcer
-  - Investigator
-  - Maul
-  - Lancer
-  - Earthshaker
-
-- Theodor
-  - Trail pfx changed
-
-## v1.30.2 - 2024-08-01
-
-### Bugfix
-
-- Add missing unit type to Sea Urchin
-- Prevent regular fabricators building Spoilers
+# Legion Mod Update - Comprehensive Changelog
+
+This update represents a major balance pass and content overhaul for the Legion expansion. Key focuses include a rework of factory efficiency, significant identity shifts for air units like the Lockheed and Marauder, and a role-reversal for the Stoke into a dedicated Anti-Air platform.
+
+---
+
+## 🏗️ Economy & Factories
+*   **Factory Efficiency:** Most foundries now consume fewer resources to produce units, allowing for more expansive early-game growth.
+    *   **Armour / Walker Foundries:** Reduced Metal rate from 17 to 15; Energy rate from 765 to 675.
+    *   **Advanced Armour / Walker / Flyer Foundries:** Reduced Metal rate from 50 to 45; Energy rate from 1650 to 1500.
+    *   **Advanced Ship Foundry:** Reduced Metal rate from 65 to 60; Energy rate from 1900 to 1750.
+*   **Legion T1 Air Factory:** Production cooldown increased from 2s to 4s.
+*   **Starship Foundry:** Build cost decreased from 6000 to 4200.
+
+---
+
+## 🛡️ Defense & Structures
+*   **Clot (Legion Wall):** Metal cost increased to **50**.
+*   **Liberator Recon Turret (NEW):** Cheap source of true vision.
+    *   75 Metal | 150 HP | 230 Vision.
+    *   Weapon: 90 Range, 20x2 Damage, 1 RoF.
+*   **Reclaim Turret (NEW):** Automated wreckage clearing.
+    *   375 Metal | 1000 HP.
+    *   **Restriction:** Can ONLY reclaim wreckage (cannot reclaim trees or living units).
+*   **Jackal:** Cost decreased 350 -> 275; Health increased 750 -> 1000.
+*   **Scarab:** Cost decreased 550 -> 450; Health increased 2500 -> 3000; Range increased 110 -> 120.
+*   **Shield Generator:** Health 750 -> 1500; Ammo capacity 36k -> 60k; Ammo demand 1000 -> 1200.
+*   **Radar:** Health 500 -> 750; Vision radius 100 -> 200.
+
+---
+
+## 🚜 Land Units
+
+### Fabricators
+*   **Fabrication Walker (Bot Fab):** Health set to **110**. Speed reduced to 12. Metal rate 10.
+*   **Armour Fabricator (Vehicle Fab):** Health reduced to 65. Speed increased to 14. Cost reduced to 150.
+*   **Guardian (Combat Fab):** Metal cost reduced to 250. Now capable of building **Shredders**, **Liberators**, and **Reclaim Turrets**.
+*   **Advanced Fabrication Walker:** HP increased to 400. Cost reduced to 1900.
+
+### Combat Units
+*   **Predator (Experimental T1 Vehicle):**
+    *   Cost: 100 | HP: 85 | Speed: 15 | Range: 80 | Damage: 60 | RoF: 0.55.
+*   **Lancer:** Rebalanced as a high-damage glass cannon.
+    *   Health decreased 100 -> **80**.
+    *   Damage increased 166 -> **215**.
+    *   Range increased 70 -> **75** (Matches Dox range).
+    *   Rate of Fire decreased 0.61 -> 0.5.
+*   **Stoke (Rework):** Now a dedicated Anti-Air platform.
+    *   **Targeting:** Can ONLY target air units.
+    *   Cost reduced to 180. Speed increased to 16. Damage increased to 40.
+*   **Purger:** Cost increased to **60**. Damage decreased 450 -> 334. Added missile target tracking and increased mesh bounds.
+*   **Maul:** Health decreased 1250 -> **1150**.
+*   **Peacekeeper:** Health decreased 170 -> 130; Range decreased 70 -> 67.5; Vision increased 105 -> 115.
+*   **Shank:** Health decreased 300 -> 250; Damage decreased 125 -> 120. Removed Splash damage.
+*   **Patriot:** Acceleration/Braking decreased 120 -> 30; Turn speed decreased 720 -> 360.
+*   **Deathmark / Monstrosity:** Now prioritize Advanced Units and Structures. Cost decreased 1200 -> 1000; Now shoots a short burst of 2x 500
+*   **Enforcer:** Range decreased 100 -> **90**; Move speed increased 12 -> **15**
+---
+
+## ✈️ Air Units
+*   **Nova (Major Rework):** 
+    *   HP increased 90 -> 150. 
+    *   Function: Spawns a targetable "missile" suicide unit once triggered that chases enemies. 
+    *   Targeting: No longer prioritizes bombers/transports over fighters.
+*   **Lockheed (Rework):** 
+    *   **Gun weapon has been removed.** 
+    *   Reworked Missile Weapon: 2 weapons, 4 missiles each, 50 damage/splash per missile. Features a spread-fire pattern and a 10s reload between volleys.
+*   **Marauder:** 
+    *   Updated SI Icon. HP decreased 50 -> 40. Speed decreased 100 -> 90. 
+    *   Weapon: Now fires 6 shots at max RoF (2/s), then RoF drops to 1/s. 
+    *   Logic: Added `"maintain_priority_target": false` to main json.
+*   **Scythe:** 
+    *   Metal cost increased to **220**. 
+    *   Range increased 95 -> 105. Damage increased 29 -> 35. Rate of Fire increased 0.9 -> 1. 
+    *   Turn rate decreased 300 -> 240. Fire angle decreased 105 -> 60 degrees.
+*   **Meteor:** Health reduced 2000 -> 750. Drones are now uncontrollable, cannot target air, and have halved movement/turn speeds.
+*   **Dauntless:** Bomb initial and max velocity decreased 35 -> 20.
+*   **Comet:** No longer buildable by Fabricators. Now produced exclusively from the Advanced Flyer Foundry.
+*   **Firebird:** Missile range decreased 180 -> 160; Rate of Fire decreased 0.33 -> 0.25.
+
+---
+
+## 🚀 Orbital & Endgame
+*   **Viper:** Range reduced 200 -> 100. Damage increased 40 -> **50**.
+*   **Loki:** Main cannon no longer targets Air or Underwater/Seafloor. Side gun splash radius reduced 20 -> 5.
+*   **Starcannon:** Strat icon priority lowered. Updated description to reflect max units held.
+
+---
+
+## 🎨 Visuals & Bugfixes
+*   **New Models:** Fabrication Walker, Armour Fabricator, Guardian, Corsair, Panzer, Stoke, Radar, Deathmark, Scorpion, Shank, Dauntless, Flyer Fabricator, Scythe, Havoc, Osprey, Foundries, and more.
+*   **Icon Updates:** New SI icons for Corsair, Marauder, and Nova.
+*   **Bugfixes:** 
+    *   Sea Urchin: Added missing unit type.
+    *   Fabricators: Regular fabricators can no longer build Spoilers.

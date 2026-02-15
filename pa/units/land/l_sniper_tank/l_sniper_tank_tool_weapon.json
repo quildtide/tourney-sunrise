@@ -11,7 +11,7 @@
   "min_firing_velocity": 60,
   "pitch_range": 80,
   "pitch_rate": 60,
-  "rate_of_fire": 0.142,
+  "rate_of_fire": 10,
   "target_layers": ["WL_LandHorizontal", "WL_Seafloor", "WL_WaterSurface"],
   "yaw_range": 180,
   "yaw_rate": 60,
@@ -21,5 +21,13 @@
     "Mobile - Air",
     "Structure - Wall",
     "Wall"
-  ]
+  ],
+
+
+  "ammo_capacity": 7,
+    "ammo_demand": 1,
+    "ammo_per_shot": 7,
+    "ammo_source": "time",
+    "carpet_fire": true,
+    "carpet_wait_for_full_ammo": true
 }
